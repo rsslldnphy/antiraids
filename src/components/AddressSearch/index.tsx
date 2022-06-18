@@ -128,14 +128,18 @@ const AddressSearch: React.FC<AddressSearchProps> = ({ ...props }) => {
             fullWidth
             size="large"
             sx={{ mb: 3 }}
-            onClick={() =>
-              navigator.geolocation.getCurrentPosition((location) =>
-                setPosition({
-                  latitude: location.coords.latitude,
-                  longitude: location.coords.longitude,
-                })
-              )
-            }
+            onClick={() => {
+              try {
+                navigator.geolocation.getCurrentPosition((location) =>
+                  setPosition({
+                    latitude: location.coords.latitude,
+                    longitude: location.coords.longitude,
+                  })
+                );
+              } catch (ex) {
+                alert((ex as any).message);
+              }
+            }}
           >
             Get your current location
           </UI.Button>
