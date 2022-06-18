@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/antiraids/static/js/main.24579542.js",
+    "main.js": "/antiraids/static/js/main.3a13290f.js",
     "static/js/651.539caa60.chunk.js": "/antiraids/static/js/651.539caa60.chunk.js",
     "index.html": "/antiraids/index.html",
-    "main.24579542.js.map": "/antiraids/static/js/main.24579542.js.map",
+    "main.3a13290f.js.map": "/antiraids/static/js/main.3a13290f.js.map",
     "651.539caa60.chunk.js.map": "/antiraids/static/js/651.539caa60.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.24579542.js"
+    "static/js/main.3a13290f.js"
   ]
 }
